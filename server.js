@@ -1,7 +1,7 @@
 "use strict";
 
 const S3Downloader      = require('fastboot-s3-downloader');
-const S3Notifier        = require('fastboot-s3-notifier');
+const S3Notifier        = require('prysmex-fastboot-s3-notifier');
 const RedisCache        = require('fastboot-redis-cache');
 const FastBootAppServer = require('fastboot-app-server');
 
